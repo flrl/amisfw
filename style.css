@@ -1,0 +1,16 @@
+div {
+    border: solid 1px black;
+}
+
+#output {
+    display: none;
+}
+
+#submission {
+    display: none;
+}
+
+.debug {
+    color: white;
+    background-color: red;
+}
