@@ -59,10 +59,8 @@ function show_image(url) {
         $("#output").append(img);
         $("#output").show();
         $("#buttons").show();
-        $("#q").value = url;
     }
     else {
-        $("#q").value = "";
         $("#buttons").hide();
         $("#output").hide();
         $("#help").show();
