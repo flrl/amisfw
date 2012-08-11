@@ -37,6 +37,11 @@ input {
     width: 50%;
 }
 
+a {
+    background-color: transparent;
+    color: darkslateblue;
+}
+
 #header {
 //    border: solid 1px green;
     color: white;
@@ -83,10 +88,13 @@ input {
     width: 60%;
     margin: 1em auto;
     padding: 1em;
-//    border: solid 1px green;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
+}
+
+#help h1 {
+    margin: 0 0;
 }
 
 #output {
@@ -118,6 +126,25 @@ input {
 }
 
 #footer {
+    margin: 0.5em;
+    border-top: solid 1px #303030;
+    text-align: right;
+}
+
+#footer a {
+    background-color: transparent;
+    color: grey;
+    text-decoration: none;
+}
+
+#footer ul {
+    margin: 0;
+}
+
+#footer li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 1em;
 }
 
 .debug {
